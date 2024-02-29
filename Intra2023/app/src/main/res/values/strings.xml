@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="hint">Id of the Pokemon</string>
+    <string name="One">One</string>
+    <string name="Two">Two</string>
+    <string name="page1">First Page</string>
+    <string name="page2">Second Page</string>
+    <string name="weight">Weight : </string>
+    <string name="height">Height : </string>
+    <string name="name">Name of Pokemon</string>
+    <string name="img">Image of the Pokemon</string>
+    <string name="error1">Failed at getting the Pokemon info. Message : </string>
+    <string name="error2">Failed request. Message : </string>
+</resources>

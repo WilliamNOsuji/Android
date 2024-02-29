@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokédex</string>
+    <string name="hint">Id du Pokemon</string>
+    <string name="One">Un</string>
+    <string name="Two">Deux</string>
+    <string name="page1">Première Page</string>
+    <string name="page2">Deuxième Page</string>
+    <string name="weight">Poids : </string>
+    <string name="height">Hauteur : </string>
+    <string name="name">Nom du Pokemon</string>
+    <string name="img">Image du Pokemon</string>
+    <string name="error1">Echec de la recuperation des donnees. Message : </string>
+    <string name="error2">Echec de la requete. Message : </string>
+</resources>
