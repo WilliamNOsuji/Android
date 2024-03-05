@@ -34,25 +34,6 @@ public class MainActivity extends AppCompatActivity {
         // appeler un service de liste et afficher dans le log
         Service service = RetrofitUtil.get();
 
-        service.Listconversion("200").enqueue(new Callback<List<Conversion>>() {
-            @Override
-            public void onResponse(Call<List<Conversion>> call, Response<List<Conversion>> response) {
-                if (response.isSuccessful()) {
-                    List<Conversion> resultat = response.body();
-                    Log.i("Retrofit", resultat.size() + "");
-                } else {
-                    Log.i("Retrofit", response.code() + "");
-                }
-
-            }
-
-            @Override
-            public void onFailure(Call<List<Conversion>> call, Throwable t) {
-                Log.i("Retrofit", t.getMessage());
-            }
-        });
-
-
 
         // appeler un service et mettre l'interface graphique
         final TextInputEditText et = findViewById(R.id.txtInput);
@@ -68,8 +49,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String nombre = et.getText().toString();
+                String nombre2 = et2.getText().toString();
 
-                service.Listconversion(nombre).enqueue(new Callback<List<Conversion>>() {
+                service.Listconversion(nombre, nombre2).enqueue(new Callback<List<Conversion>>() {
                     @Override
                     public void onResponse(Call<List<Conversion>> call, Response<List<Conversion>> response) {
                         if (response.isSuccessful()) {

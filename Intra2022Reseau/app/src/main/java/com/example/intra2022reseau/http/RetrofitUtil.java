@@ -10,7 +10,7 @@ public class RetrofitUtil {
         Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("https://4n6.azurewebsites.net/exam/representations/")
+                .baseUrl("https://4n6.azurewebsites.net/exam/representations/2/6")
                 .build();
 
         Service service = retrofit.create(Service.class);
