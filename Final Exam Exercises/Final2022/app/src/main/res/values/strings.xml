@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Translations</string>
+    <string name="btn1">ROCK</string>
+    <string name="btn2">PAPER</string>
+    <string name="btn3">CISORS</string>
+    <string name="color">Pink</string>
+</resources>

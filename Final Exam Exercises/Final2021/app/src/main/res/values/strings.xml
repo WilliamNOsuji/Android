@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Final Error</string>
+    <string name="second_name">Final Waiting</string>
+    <string name="btnSendServer">SEND TO SERVER</string>
+    <string name="btnWaitServer">GO TO SERVER</string>
+    <string name="splashScreenWait">Please Wait</string>
+    <string name="splashScreenWait2">Sending request to the server</string>
+
+    <string name="failedRequest">Failed Request</string>
+</resources>

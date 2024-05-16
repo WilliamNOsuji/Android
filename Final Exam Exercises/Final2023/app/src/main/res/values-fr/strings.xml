@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bien bien bien</string>
+    <string name="txtBtn1">POMME</string>
+    <string name="txtBtn2">BANANE</string>
+    <string name="txtBtn3">ANANAS</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final Erreur</string>
+    <string name="second_name">Final Attente</string>
+    <string name="btnSendServer">ENYOYER AU SERVEUR</string>
+    <string name="btnWaitServer">ALLEZ AU SERVEUR</string>
+    <string name="splashScreenWait">Veuillez patienter</string>
+    <string name="splashScreenWait2">Nous envoyons la requete au serveur</string>
+
+    <string name="failedRequest">Requete Echouer</string>
+</resources>
